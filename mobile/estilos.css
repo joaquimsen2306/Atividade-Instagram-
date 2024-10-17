@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.mockup-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mockup-image {
+  width: 100%;
+  max-width: 350px;
+}
+
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.login-box, 
+.not-you-box {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 15px;
+}
+
+.instagram-logo {
+  width: 100px; 
+  margin: 0 auto 15px;
+  display: flex;
+}
+.a{
+  color: #0095f6;
+}
+
+.i{
+  color: #0095f6
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-btn:hover {
+  background-color: #007bb5;
+}
+
+.remove-account {
+  color: #0095f6;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.not-you {
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.not-you a {
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.app-section {
+  text-align: center;
+}
+
+.app-section p {
+  margin-bottom: 10px;
+}
+
+.app-links img {
+  width: 120px;
+  margin: 0 5px;
+}
+
+@media (max-width: 480px) {
+  .mockup-image {
+    width: 80%;
+  }
+
+  .login-box,
+  .not-you-box {
+    max-width: 300px;
+  }
+
+  .instagram-logo {
+    width: 80px;
+  }
+
+  .app-links img {
+    width: 100px;
+  }
+}
